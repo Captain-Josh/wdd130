@@ -8,6 +8,11 @@
     --primary-color: #222;
 }
 
+body {
+    font-size: 16px;
+    font-family: "Roboto", Arial, sans-serif;
+}
+
 main {
     max-width: 840px;
 }
@@ -39,6 +44,7 @@ main img {
 
 p {
     padding: 0;
+    margin: 1rem;
 }
 
 aside {
@@ -76,4 +82,8 @@ footer {
     border: 1px solid rgb(0 0 0/ 0.2);
     background-color: #eee;
     color: #333;
+}
+
+.indent {
+    padding-left: 2rem;
 }
