@@ -8,8 +8,8 @@
     --primary-color: #055a05;
     --secondary-color: #f4a361;
     --accent1-color: #264653;
-    --accent2-color: #e9c46a;
-    --heading-font: "Times New Roman" ."Georgia", serif;
+    --accent2-color: #2F5565;
+    --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
 
@@ -96,7 +96,7 @@ footer nav a {
     display: inline-block;
     height: 35px;
     width: 35px;
-    margin: 0 10px;
+    margin: 0 5px;
 }
 
 /* footer nav a img {
