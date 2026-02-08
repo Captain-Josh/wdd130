@@ -51,7 +51,7 @@ header nav ul {
 
 header nav a {
     text-decoration: none;
-    color: #ffffff;
+    color: var(--secondary-color);
 }
 
 .history {
@@ -102,7 +102,7 @@ article {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: #fff;
+    color: var(--secondary-color);
 }
 
 .hero article {
@@ -114,7 +114,7 @@ article {
     margin: 0 auto;
     opacity: 0.9;
     background-color: var(--accent2-color);
-    color: #fff;
+    color: var(--secondary-color);
 }
 
 .hero img {
@@ -170,7 +170,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    color: #ffffff;
+    color: var(--secondary-color);
     background-color: var(--accent1-color);
     /* margin: 0 auto !important; */
 }
@@ -246,7 +246,7 @@ button {
     border-radius: 12px;
     font-size: 15px;
     background-color: navy;
-    color: #ffffff;
+    color: var(--secondary-color);
 }
 
 button:hover {
