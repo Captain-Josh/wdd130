@@ -5,10 +5,13 @@
 }
 
 :root {
-    --primary-color: #055a05;
+    --primary-color: #000080;
     --secondary-color: #ffffff;
+    --color-tertiary: #ff0000;
     --accent1-color: #264653;
     --accent2-color: #2F5565;
+    --border-thin: 1px solid rgb(0 0 0/0.2);
+    --border-thick: 2px solid rgb(0 0 0/0.2);
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -74,7 +77,6 @@ header nav a {
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
 }
 
 nav,
@@ -126,7 +128,7 @@ article {
 .hero article img {
     float: right;
     margin: 1px;
-    border: 1px solid rgb(0 0 0/0.2);
+    border: var(--border-thin);
     width: 125px;
 
 }
@@ -247,16 +249,16 @@ button {
     border: none;
     border-radius: 12px;
     font-size: 15px;
-    background-color: navy;
+    background-color: var(--primary-color);
     color: var(--secondary-color);
 }
 
 button:hover {
-    background-color: red;
+    background-color: var(--color-tertiary);
 }
 
 .second {
-    border: 2px solid rgb(0 0 0/0.2);
+    border: var(--border-thick);
     border-radius: 10px;
 }
 
