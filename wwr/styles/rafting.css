@@ -12,6 +12,7 @@
     --accent2-color: #2F5565;
     --accent3-color: #ff0000;
     --accent4-color: #000080;
+    --accent5-color: #1b3879c9;
     --border-thin: 1px solid rgb(0 0 0/0.2);
     --border-thick: 2px solid rgb(0 0 0/0.2);
     --heading-font: "Times New Roman", "Georgia", serif;
@@ -26,7 +27,7 @@ body {
 header,
 main,
 footer {
-    width: 840px;
+    width: 900px;
     margin: 0 auto;
 }
 
@@ -204,6 +205,7 @@ footer nav a {
     justify-content: center;
 }
 
+/* contact html update */
 .company-information h1,
 h2 {
     color: var(--color-tertiary);
@@ -269,5 +271,143 @@ button:hover {
     align-self: center;
     width: 130px;
     height: 130px;
+}
 
+/* index.html update */
+.index-hero {
+    position: relative;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    color: var(--secondary-color);
+    font-weight: 800;
+    font-size: 1500;
+}
+
+.index-hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.btn {
+    width: 60px;
+    height: 20px;
+    padding: 10px;
+    text-decoration: none;
+    border: var(--border-thin);
+    border-radius: 12px;
+    color: var(--secondary-color);
+    background-color: var(--accent5-color);
+}
+
+.newsletter,
+.newsletter p,
+form p,
+.contact-btn p {
+    margin: 0;
+    padding: 15px 0;
+}
+
+.newsletter h2 {
+    text-align: left;
+}
+
+.main {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    color: var(--color-tertiary);
+}
+
+.raft-img figure img {
+    width: 150px;
+    height: 150px;
+    border: var(--border-thick);
+    border-radius: 15px;
+}
+
+.raft-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin: 10px 0;
+}
+
+.raft-img figcaption {
+    text-align: center;
+}
+
+/* Trips Update */
+.info {
+    border: var(--border-thick);
+    color: var(--color-tertiary);
+
+}
+
+.trip-title {
+    text-align: center;
+    font-size: 700;
+}
+
+.contact-btn {
+    margin: 15px 0 0 0;
+    padding: 0 10px;
+    text-align: right;
+}
+
+.trips {
+    color: var(--color-tertiary);
+}
+
+.column01 {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+}
+
+.column02 {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
+}
+
+.trip-info img {
+    width: 300px;
+    height: 300px;
+}
+
+.trip-info ul {
+    padding: 0 0 0 40px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    width: 100%;
+}
+
+th,
+td {
+    border: 1px solid rgb(160 160 160);
+    padding: 8px 10px;
+    text-align: left;
+}
+
+thead th,
+tfoot th {
+    background-color: #000;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
 }
