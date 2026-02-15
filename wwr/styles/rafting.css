@@ -12,7 +12,7 @@
     --accent2-color: #2F5565;
     --accent3-color: #ff0000;
     --accent4-color: #000080;
-    --accent5-color: #1b3879c9;
+    --accent5-color: #fcf5f5;
     --border-thin: 1px solid rgb(0 0 0/0.2);
     --border-thick: 2px solid rgb(0 0 0/0.2);
     --heading-font: "Times New Roman", "Georgia", serif;
@@ -22,6 +22,14 @@
 body {
     font-family: var(--body-font);
     /* color: var(--accent1-color) */
+}
+
+body a:hover {
+    background-color: var(--accent5-color);
+    color: var(--primary-color);
+    border: var(--border-thick);
+    border-radius: 50px;
+    padding: 10px;
 }
 
 header,
@@ -281,12 +289,17 @@ button:hover {
 .hero-overlay {
     position: absolute;
     top: 20px;
-    width: 100%;
+    right: 0;
+    left: 0;
+    width: 50%;
     padding: 16px;
+    margin: 0 auto;
     text-align: center;
-    color: var(--secondary-color);
-    font-weight: 800;
+    color: var(--color-tertiary);
     font-size: larger;
+    background-color: var(--accent5-color);
+    opacity: 0.85;
+    border-radius: 50px;
 }
 
 .index-hero img {
@@ -296,14 +309,13 @@ button:hover {
 }
 
 .btn {
-    width: 60px;
-    height: 20px;
-    padding: 10px;
+    padding: 12px;
     text-decoration: none;
-    border: var(--border-thin);
+    border: var(--border-thick);
     border-radius: 12px;
+    font-weight: 800;
     color: var(--secondary-color);
-    background-color: var(--accent5-color);
+    background-color: var(--accent1-color);
 }
 
 .newsletter,
